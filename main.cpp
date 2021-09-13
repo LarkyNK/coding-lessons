@@ -2,10 +2,8 @@
 using namespace std;
 
 int main() {  
-    cout << "I am" << endl << "very" << endl << endl;
-    cout << "smart" << endl;
-    cout << "tm" << endl << "tm tm" << endl << endl;
-    cout <<"tm tm tm" << endl << endl << endl;
-    cout << "yes";
+    cout << "name \t Description \t Phone number \t\t Address\n";
+    cout << "Name Description Phone number Address";
+    cout << "\\";
     return 0;
 }
