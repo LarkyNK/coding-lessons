@@ -2,10 +2,12 @@
 using namespace std;
 
 int main() {  
-    int a= 4;
-    long b= 6;
-    double c= 8;
-    double d= a*c - a*b;
-    cout << d << "\n";
+    int x;
+    int y;
+    cout << "Enter x" << "\n";
+    cin >> x;
+    cout << "Enter y" << "\n";
+    cin >> y;
+    cout << x+y;
     return 0;
 }
