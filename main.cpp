@@ -2,12 +2,9 @@
 using namespace std;
 
 int main() {  
-    int x;
-    int y;
-    cout << "Enter x" << "\n";
-    cin >> x;
-    cout << "Enter y" << "\n";
-    cin >> y;
-    cout << x+y;
+    if (2 < 7) {
+    cout << "2 is lesser than 7";
+    } else 
+    {cout << "2 is not lesser than 7";}
     return 0;
 }
