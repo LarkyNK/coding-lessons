@@ -12,19 +12,27 @@ int main()
     cin >> b;
     cout << "Enter c\n";
     cin >> c;
-    double d = (b * b) - 4 * a * c;
-    cout << "Discriminant: " << d << "\n";
-    if (d > 0)
+    if (a <= 0)
     {
-        cout << "Discriminant is positive, hence equation has 2 real and different roots\n";
+        cout << "Input is invalid as a is not positive\n";
     }
-    else if (d == 0)
+    else if (b <= 0)
     {
-        cout << "Discriminant is equal to zero, hence equation has 2 real but equal roots\n";
+        cout << "Input is invalid as b is not positive\n";
     }
-    else if (d < 0)
+    else if (c <= 0)
     {
-        cout << "Discriminant is less than zero, hence equation has imaginary roots\n";
+        cout << "Input is invalid as c is not positive\n";
+    }
+    double d = (a * a) + (b * b);
+    cout << "Pythagorean triplet status:" << d << "\n";
+    if (d == c * c)
+    {
+        cout << "The following set of numbers form a pythagorean triplet\n";
+    }
+    else
+    {
+        cout << "The following set of numbers DO NOT form a pythagorean triplet\n";
     }
     return 0;
 }
