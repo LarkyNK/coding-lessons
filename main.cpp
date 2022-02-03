@@ -6,36 +6,53 @@ int main()
 {
     double a;
     double b;
-    char c;
-    cout << "Enter a :\n";
+    double c;
+    char o1;
+    char o2;
+    cout << "Enter a: \n";
     cin >> a;
-    cout << "Enter b :\n";
+    cout << "Enter b: \n";
     cin >> b;
-    cout << "Enter character (c):\n";
+    cout << "Enter c: \n";
     cin >> c;
-    if (c == '+')
-    {
-        cout << "Addition of both the nos. = " << a + b << endl;
-    }
-    else if (c == '-')
-    {
-        cout << "Subtraction of both the nos. = " << a - b << endl;
-    }
-    else if (c == '*')
-    {
-        cout << "Multiplication of both the nos. = " << a * b << endl;
-    }
-    else if (c == '/')
-    {
-        if (b == 0)
-        {
-            cout << "since b is 0, it is an error\n";
+    cout << "Enter character (o1): \n";
+    cin >> o1;
+    cout << "Enter character (o2): \n";
+    cin >> o2;
+    int F = (a 'o1' b) 'o2' c;
+    if(o1 == '+')(o2 == '+'){
+        if(o1 == '-')(o2 == '-'){
+            if(o1 == '*')(o2 == '*'){
+                if(o1 == '/')(o2 == '/'){
+                    if(o1 == '+')(o2 == '-'){
+                        if(o1 == '+')(o2 == '*'){
+                            if(o1 == '+')(o2 == '/'){
+                                if(o1 == '-')(o2 == '+'){
+                                    if(o1 == '-')(o2 == '*'){
+                                        if(o1 == '-')(o2 == '/'){
+                                            if(o1 == '*')(o2 == '+'){
+                                                if(o1 == '*')(o2 == '-'){
+                                                    if(o1 == '*')(o2 == '/'){
+                                                        if(o1 == '/')(o2 == '+'){
+                                                            if(o1 == '/')(o2 == '-'){
+                                                                if(o1 == '/')(o2 == '*'){
+                                                                    cout << "Final Answer is: " << F;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
         }
-        else
-        {
-            cout << "Division of a by b = " << a / b << endl;
-        }
     }
-
+    cout << "Final Answer is: " << F << endl;
     return 0;
 }
