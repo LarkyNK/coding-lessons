@@ -4,16 +4,13 @@ using namespace std;
 
 int main()
 {
-    string firstname;
-    string lastname;
-    string age;
-    string a= ",your boomer";
-    cout << "Enter your first name: \n";
-    cin >> firstname;
-    cout << "Enter your last name: \n";
-    cin >> lastname;
-    cout << "Enter your age: \n";
-    cin >> age;
-    cout << "Your name is " << firstname.append(" ").append(lastname).append(" ") << "and your age is " << age.append(a);
+    string a;
+    string b;
+    cout << "Enter first string: \n";
+    getline(cin, a);
+    cout << "Enter second string: \n";
+    getline(cin, b);
+    bool shut = a.length() == b.length();
+    cout << "Lenth of both strings are equal \n" << shut << endl;
     return 0;
-} 
+}
